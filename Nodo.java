@@ -28,6 +28,10 @@ public class Nodo {
         return y;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public void setX(int x) {
         this.x = x;
     }
