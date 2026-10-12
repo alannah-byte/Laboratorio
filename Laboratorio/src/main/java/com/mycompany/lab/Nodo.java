@@ -1,12 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.lab;
 
+// Un nodo tiene un nombre y una posición en el dibujo.
 public class Nodo {
-
-    private String nombre;
+    private final String nombre;
     private int x;
     private int y;
 
@@ -28,15 +24,8 @@ public class Nodo {
         return y;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setX(int x) {
+    public void setPosicion(int x, int y) {
         this.x = x;
-    }
-
-    public void setY(int y) {
         this.y = y;
     }
 }
